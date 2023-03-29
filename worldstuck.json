@@ -1,12 +1,21 @@
-[
-    {
-        "id": "0",
-        "img": "MSPA_Logo.gif",
-        "groupName": "Homestuck"
+{
+	"California": [ 
+		{
+			"id": "0",
+			"img": "MSPA_Logo.gif",
+			"groupName": "Homestuck"
     },
 		{
-        "id": "1",
-        "img": "Homestuck.jpg",
-        "groupName": "Hussie"
+			"id": "1",
+			"img": "Homestuck.jpg",
+			"groupName": "Hussie"
     }
-]
+	],
+	"Oregon": [
+		{
+			"id": "2",
+			"img": "MSPA_Logo.gif",
+			"groupName": "Targetstuck"
+		}
+	]
+}
