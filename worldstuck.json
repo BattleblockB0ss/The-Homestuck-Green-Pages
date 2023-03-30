@@ -1,21 +1,51 @@
 {
+	
 	"California": [ 
 		{
-			"id": "0",
+			"id": "CA0",
 			"img": "MSPA_Logo.gif",
-			"groupName": "Homestuck"
+			"groupName": "zHomestuck",
+			"location": "San Jose",
+			"size": 100,
+			"desc": "Lots of cool cats and hip chicks",
+			"period": "2010-2011",
+			"links": [{"Instagram": "https://instagram.com/battleblockb0ss"}, {"Google": "https://google.com"}],
+			"status": 0
     },
 		{
-			"id": "1",
+			"id": "CA1",
 			"img": "Homestuck.jpg",
-			"groupName": "Hussie"
+			"groupName": "Hussie",
+			"location": "San Jose",
+			"size": 100,
+			"desc": "Lots of cool cats and hip chicks",
+			"period": "2010-2011",
+			"links": [{"Instagram": "https://instagram.com/battleblockb0ss"}, {"Google": "https://google.com"}],
+			"status": 0
     }
 	],
 	"Oregon": [
 		{
-			"id": "2",
+			"id": "OR0",
 			"img": "MSPA_Logo.gif",
-			"groupName": "Targetstuck"
+			"groupName": "Targetstuck",
+			"location": "San Jose",
+			"size": 100,
+			"desc": "Lots of cool cats and hip chicks",
+			"period": "2010-2011",
+			"links": [{"Instagram": "https://instagram.com/battleblockb0ss"}, {"Google": "https://google.com"}],
+			"status": 0
+		},
+		{
+			"id": "OR1",
+			"img": "Homestuck.jpg",
+			"groupName": "the Simpsons",
+			"location": "San Jose",
+			"size": 100,
+			"desc": "Lots of cool cats and hip chicks",
+			"period": "2010-2011",
+			"links": [{"Instagram": "https://instagram.com/battleblockb0ss"}, {"Google": "https://google.com"}],
+			"status": 0
 		}
 	]
 }
