@@ -6,4 +6,10 @@ html {
 	border: 2px solid black;
 	border-radius: 25px;
 	margin: 5px;
+	padding: 5px;
+}
+.group {
+	border: 1px dashed red;
+	margin: 5px;
+	padding: 5px;
 }

@@ -20,7 +20,6 @@ function appendData(data, a) {
 	var mainContainer = document.getElementById("myData");
 	var regionKeys = Object.keys(data)[a];
 	var regionValues = Object.values(data)[a];
-	var regions = Object.values(data)
 	//END VARIABLES
 
 	//FUNCTIONS
@@ -51,8 +50,16 @@ function appendData(data, a) {
 	for (var i = 0; i < regionValues.length; i++) {
 		appendDiv("group", false, "", mainContainer.lastChild);
 		groupDiv = mainContainer.lastChild.lastChild
-		appendText(`<b>Name: </b>${regionValues[i].groupName}`, groupDiv, "p");
 		appendImg("wowza", groupDiv);
+		appendText(`<b>Name: </b>${regionValues[i].groupName}`, groupDiv, "h2");
+		appendText(`<b>Member Count: </b>${regionValues[i].size}`, groupDiv, "p");
+		appendText(`<i>Period Active: ${regionValues[i].period}</i>`, groupDiv, "p");
+		appendText(regionValues[i].desc, groupDiv)
+		let linksLoc = regionValues[i].links;
+		for (var e = 0; e < linksLoc.length; e++) {
+			
+			appendText(`Links: ${linksLoc[e].Instagram}`, groupDiv, "p"); 
+		}
 	}
 	//END THE GOOD SHIT
 }

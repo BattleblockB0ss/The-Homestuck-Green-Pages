@@ -1,5 +1,5 @@
 {
-	
+	"apple": [],
 	"California": [ 
 		{
 			"id": "CA0",
@@ -9,7 +9,7 @@
 			"size": 100,
 			"desc": "Lots of cool cats and hip chicks",
 			"period": "2010-2011",
-			"links": [{"Instagram": "https://instagram.com/battleblockb0ss"}, {"Google": "https://google.com"}],
+			"links": [{"Instagram": "https://instagram.com/battleblockb0ss"}, {"Google": "https://google.com"}, {"test": "test"}],
 			"status": 0
     },
 		{
@@ -20,7 +20,7 @@
 			"size": 100,
 			"desc": "Lots of cool cats and hip chicks",
 			"period": "2010-2011",
-			"links": [{"Instagram": "https://instagram.com/battleblockb0ss"}, {"Google": "https://google.com"}],
+			"links": [{"Instagram": "https://instagram.com/battleblockb0ss"}, {"Google": "https://google.com"}, {"test": "test"}],
 			"status": 0
     }
 	],
