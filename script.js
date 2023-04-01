@@ -23,43 +23,52 @@ function appendData(data, a) {
 	//END VARIABLES
 
 	//FUNCTIONS
-	function appendDiv(classes, idNeed, divId, container) {
+	function appendDiv(classes, container, divId) {
 		let div = document.createElement("div");
 		div.setAttribute("class", classes);
-		if (idNeed) {
+		if (divId != undefined) {
 			div.setAttribute("id", divId);
 		}
 		container.appendChild(div);
 	}
-	function appendImg(alt, container) {
-		let img = new Image();
-		img.src = regionValues[i].img;
-		img.setAttribute("alt", alt);
-		container.appendChild(img);
+	function appendImg(container) {
+		if (regionValues[i].img != undefined) {
+			let img = new Image();
+			img.src = `images/${regionValues[i].img}`;
+			container.appendChild(img);
+		}
 	}
-	function appendText(textVal, container, textTag) {
+	function appendText(textVal, container, textTag, classes) {
 		let text = document.createElement(textTag);
+		if (classes != undefined) {
+			text.setAttribute("class", classes);
+		}
 		text.innerHTML = textVal;
 		container.appendChild(text);
 	}
 	//END FUNCTIONS
 
 	//THE GOOD SHIT
-	appendDiv("region", true, regionKeys, mainContainer);
-	appendText(Object.keys(data)[a], mainContainer.lastChild, "h1")
+	appendDiv("region", mainContainer, regionKeys);
+	appendDiv("headerDiv", mainContainer.lastChild);
+	appendText(Object.keys(data)[a], mainContainer.lastChild.lastChild, "h1", "header");
+	appendDiv("groupsDiv", mainContainer.lastChild);
 	for (var i = 0; i < regionValues.length; i++) {
-		appendDiv("group", false, "", mainContainer.lastChild);
-		groupDiv = mainContainer.lastChild.lastChild
-		appendImg("wowza", groupDiv);
-		appendText(`<b>Name: </b>${regionValues[i].groupName}`, groupDiv, "h2");
+		appendDiv("group", mainContainer.lastChild.lastChild);
+		groupDiv = mainContainer.lastChild.lastChild.lastChild
+		appendImg(groupDiv);
+		appendText(regionValues[i].groupName, groupDiv, "h2");
+		appendText(regionValues[i].location, groupDiv, "p");
 		appendText(`<b>Member Count: </b>${regionValues[i].size}`, groupDiv, "p");
 		appendText(`<i>Period Active: ${regionValues[i].period}</i>`, groupDiv, "p");
-		appendText(regionValues[i].desc, groupDiv)
+		appendText(regionValues[i].desc, groupDiv, "p");
 		let linksLoc = regionValues[i].links;
-		for (var e = 0; e < linksLoc.length; e++) {
-			
-			appendText(`Links: ${linksLoc[e].Instagram}`, groupDiv, "p"); 
+		appendDiv("links", groupDiv, "links");
+		for (var e = 0; e < linksLoc.length/2; e++) {
+			appendText(`<a href=${linksLoc[2*e+1]}>${linksLoc[e*2]}</a> `, groupDiv.lastChild, "span", linksLoc[e*2]);
 		}
+		appendDiv("regionValues[i].status", groupDiv)
+		appendText(regionValues[i].status, groupDiv.lastChild, "p");
 	}
 	//END THE GOOD SHIT
 }

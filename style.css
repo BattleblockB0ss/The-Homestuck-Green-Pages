@@ -1,15 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Zanabazar+Square&display=swap');
+
+
 html {
   height: 100%;
   width: 100%;
 }
+body {
+	background-color: #404258;
+	color: white;
+}
+h1 {
+	font-family: Noto Sans Zanabazar Square;
+}
+h2 {
+	text-align: center;
+}
+p {
+	font-family: Roboto;
+}
+img {
+	max-width: 95%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+span {
+	border: 2px solid white;
+	border-radius: 25px;
+	padding: 5px;
+	padding-left: 7px;
+	margin: 3px;
+	line-height: 35px;
+}
+a {
+	color: white;
+}
+a:link,visited,hover,active {
+  text-decoration: none;
+}
 .region {
+	border-radius: 10px;
+	margin: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #474E68;
+}
+.groupsDiv {
+	-webkit-column-width: 10em;
+	-webkit-column-gap: 1em;
+	-webkit-column-count: 5;
+	-moz-column-width: 20em;
+	-moz-column-gap: 2em;
+	-moz-column-count: 2;
+	-ms-column-width: 20em;
+	-ms-column-gap: 2em;
+	-ms-column-count: 5;
+	column-width: 20em;
+	column-gap: 2em;
+	column-count: 5;
+}
+.group {
 	border: 2px solid black;
 	border-radius: 25px;
 	margin: 5px;
-	padding: 5px;
+	padding: 10px;
+	background-color: #50577A;
+	
+	/* COLUMNS */
+	break-inside: avoid-column;
+	-webkit-column-break-inside: avoid;
+	page-break-inside: avoid;
+	width:100%;
+	box-sizing:border-box;
 }
-.group {
-	border: 1px dashed red;
-	margin: 5px;
-	padding: 5px;
+.group:not(:first-of-type) {
+  margin: 20px 0;
+}
+.active {
+	background-color: 
+}
+
+/* LINK COLORS */
+.Instagram {
+	background-image: linear-gradient(to bottom right, #d62976, 	#962fbf);
+	border-color: #000000;
+}
+.Discord {
+	background-color:	#7289da;
+	border-color: #23272a;
+}
+.Tumblr {
+	background-color: #001935;
+	border-color: #00B8FF;
+}
+.TikTok {
+	background-image: linear-gradient(to bottom right, #00f2ea, #ff0050);
+	border-color: black;
+}
+.YouTube {
+	background-color: #FF0000;
+	border-color: #282828;
+}
+.Linktree {
+	background-color: #4d6d17;
+	border-color: black;
+}
+.Facebook {
+	background-color: #4292FF;
+	border-color: #18191A;
 }

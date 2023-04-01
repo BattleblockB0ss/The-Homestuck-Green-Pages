@@ -1,51 +1,114 @@
 {
-	"apple": [],
+	"apple": [
+		{
+			"img": "",
+			"groupName": "",
+			"location": "",
+			"size": "",
+			"desc": "",
+			"period": "",
+			"links": [],
+			"status": ""
+    }
+	],
 	"California": [ 
 		{
-			"id": "CA0",
-			"img": "MSPA_Logo.gif",
-			"groupName": "zHomestuck",
-			"location": "San Jose",
-			"size": 100,
-			"desc": "Lots of cool cats and hip chicks",
-			"period": "2010-2011",
-			"links": [{"Instagram": "https://instagram.com/battleblockb0ss"}, {"Google": "https://google.com"}, {"test": "test"}],
-			"status": 0
+			"img": "CaliborniaHomestucks.jpg",
+			"groupName": "Calibornia Homestucks",
+			"location": "California",
+			"size": "215",
+			"desc": "Calibornia Homestucks is a California-wide Homestuck group founded at FanimeCon 2022. They are very active in online spaces, particularly their Discord, and host gatherings and/or panels at most major California conventions. They have a 15+ age limit.",
+			"period": "2022-present",
+			"links": ["Discord", "https://discord.gg/calibornia", "Instagram", "https://instagram.com/caliborniahomestucks", "Tumblr", "https://tumblr.com/caliborniastuck", "TikTok", "https://tiktok.com/@calibornia.stuck", "YouTube", "https://youtube.com/channel/UC77y1UjGT_TKFNG6XkMAfcQ", "Linktree", "https://linktr.ee/calibornia"],
+			"status": "Active"
     },
 		{
-			"id": "CA1",
-			"img": "Homestuck.jpg",
-			"groupName": "Hussie",
-			"location": "San Jose",
-			"size": 100,
-			"desc": "Lots of cool cats and hip chicks",
-			"period": "2010-2011",
-			"links": [{"Instagram": "https://instagram.com/battleblockb0ss"}, {"Google": "https://google.com"}, {"test": "test"}],
-			"status": 0
+			"groupName": "SoCal Homestuck 18 and Over Group",
+			"location": "Southern California",
+			"size": "32",
+			"desc": "A Facebook group for adult Homestuck cosplayers located in Southern California. Had a very short and inactive lifespan.",
+			"period": "2014-2017",
+			"links": ["Facebook", "https://www.facebook.com/groups/666498250112498/"],
+			"status": "Dead"
+    },
+		{
+			"img": "SoCalStuck.jpg",
+			"groupName": "SoCalStuck",
+			"location": "Southern California",
+			"size": "Unknown",
+			"desc": "A Tumblr page dedicated to tracking Homestuck meetups and groups in Southern California. While mostly dedicated to reporting on the activity of other, seperate SoCal groups, it did host multiple meetups of its own.",
+			"period": "2012-2013",
+			"links": ["Tumblr", "https://socalstuck.tumblr.com/"],
+			"status": "Dead"
+    },
+		{
+			"img": "SanDiegoStuck.jpg",
+			"groupName": "SanDiegoStuck",
+			"location": "San Diego",
+			"size": "81",
+			"desc": "A San Diego Homestuck group that at one point hosted bi-monthly meetups. The group seems to have amassed a pretty significant following at one point and had initially formed from a meetup at a local convention. It seems as though the group eventually morphed into a general San Diego cosplay group judging by the Facebook page.",
+			"period": "2012-2018",
+			"links": ["Tumblr", "https://sandiegostuck.tumblr.com/", "Facebook", "https://www.facebook.com/groups/282144831811932/"],
+			"status": "Dead"
+    },
+		{
+			"groupName": "Orange County Homestuck Team",
+			"location": "Orange County",
+			"size": "170",
+			"desc": "All information on the page is wiped with only the note \"This group is now inactive. Sorry about that!\". No more information can be found.",
+			"period": "2011-Unknown",
+			"links": ["Facebook", "https://www.facebook.com/groups/208196309218508/"],
+			"status": "Dead"
+    },
+		{
+			"groupName": "SoCal Homestuck Cosplay Group",
+			"location": "Southern California",
+			"size": "236",
+			"desc": "The Facebook page is locked to members only. Judging by the member count, they amassed a significant following in their peak. The group is most likely dead.",
+			"period": "2012-Unknown",
+			"links": ["Facebook", "https://www.facebook.com/groups/243886025731762/"],
+			"status": "Unknown"
+    },
+		{
+			"groupName": "Southern? California Homestuck Meetup",
+			"location": "California",
+			"size": "134",
+			"desc": "The Facebook page is locked to members only. It can be inferred from the title and member count that this was once a thriving Homestuck group spanning Southern California and at least part of Northern California. Latest activity is unknown, but can be safely assumed to be dead.",
+			"period": "2012-Unknown",
+			"links": ["Facebook", "https://www.facebook.com/groups/383399895048609/"],
+			"status": "Unknown"
+    },
+		{
+			"img": "SouthernCaliforniaHomestucks.jpg",
+			"groupName": "Southern California Homestucks",
+			"location": "Southern California",
+			"size": "165",
+			"desc": "A Homestuck group based in Southern California that seems to have been active for a longer period of time than most. Some members do appear to be active on Facebook still, although there hasn't been any significant activity in the group since 2018.",
+			"period": "2013-2018",
+			"links": ["Facebook", "https://www.facebook.com/groups/515355595200162/"],
+			"status": "Dead"
     }
 	],
 	"Oregon": [
 		{
-			"id": "OR0",
 			"img": "MSPA_Logo.gif",
 			"groupName": "Targetstuck",
 			"location": "San Jose",
-			"size": 100,
+			"size": "100",
 			"desc": "Lots of cool cats and hip chicks",
 			"period": "2010-2011",
-			"links": [{"Instagram": "https://instagram.com/battleblockb0ss"}, {"Google": "https://google.com"}],
-			"status": 0
+			"links": ["Instagram", "https://instagram.com/battleblockb0ss", "Google", "https://google.com", "test", "test"],
+			"status": "Active"
 		},
 		{
-			"id": "OR1",
 			"img": "Homestuck.jpg",
 			"groupName": "the Simpsons",
 			"location": "San Jose",
-			"size": 100,
+			"size": "100",
 			"desc": "Lots of cool cats and hip chicks",
 			"period": "2010-2011",
-			"links": [{"Instagram": "https://instagram.com/battleblockb0ss"}, {"Google": "https://google.com"}],
-			"status": 0
+			"links": ["Instagram", "https://instagram.com/battleblockb0ss", "Google", "https://google.com", "test", "test"],
+			"status": "Active"
 		}
 	]
 }
