@@ -67,8 +67,8 @@ function appendData(data, a) {
 		for (var e = 0; e < linksLoc.length/2; e++) {
 			appendText(`<a href=${linksLoc[2*e+1]}>${linksLoc[e*2]}</a> `, groupDiv.lastChild, "span", linksLoc[e*2]);
 		}
-		appendDiv("regionValues[i].status", groupDiv)
-		appendText(regionValues[i].status, groupDiv.lastChild, "p");
+		appendDiv(`${regionValues[i].status} activityDiv`, groupDiv)
+		appendText(regionValues[i].status.toUpperCase(), groupDiv.lastChild, "p");
 	}
 	//END THE GOOD SHIT
 }

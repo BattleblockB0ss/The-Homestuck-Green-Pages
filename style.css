@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Zanabazar+Square&display=swap');
 
-
 html {
   height: 100%;
   width: 100%;
@@ -8,6 +7,7 @@ html {
 body {
 	background-color: #404258;
 	color: white;
+	font-family: Open Sans, Helvetica, sans-serif;
 }
 h1 {
 	font-family: Noto Sans Zanabazar Square;
@@ -15,11 +15,9 @@ h1 {
 h2 {
 	text-align: center;
 }
-p {
-	font-family: Roboto;
-}
 img {
-	max-width: 95%;
+	width: 95%;
+	margin-top: 15px;
 	display: block;
   margin-left: auto;
   margin-right: auto;
@@ -27,8 +25,8 @@ img {
 span {
 	border: 2px solid white;
 	border-radius: 25px;
-	padding: 5px;
-	padding-left: 7px;
+	padding: 0.4em;
+	padding-left: 0.6em;
 	margin: 3px;
 	line-height: 35px;
 }
@@ -37,6 +35,9 @@ a {
 }
 a:link,visited,hover,active {
   text-decoration: none;
+}
+.links {
+	margin-bottom:0.5em;
 }
 .region {
 	border-radius: 10px;
@@ -58,12 +59,12 @@ a:link,visited,hover,active {
 	column-width: 20em;
 	column-gap: 2em;
 	column-count: 5;
+	padding-bottom: 15px;
 }
 .group {
 	border: 2px solid black;
 	border-radius: 25px;
-	margin: 5px;
-	padding: 10px;
+	padding: 0.5em;
 	background-color: #50577A;
 	
 	/* COLUMNS */
@@ -75,10 +76,33 @@ a:link,visited,hover,active {
 }
 .group:not(:first-of-type) {
   margin: 20px 0;
+}30
+
+/* ACTIVITY BANNER */
+.activityDiv {
+	font-size: 30px;
+	padding: 0px 15px;
+	margin: 0px -8px -8px -8px;
+	border-radius: 0% 0% 23px 23px;
+	text-align: center;
 }
-.active {
-	background-color: 
+.activityDiv * {
+	margin-top: auto;
+	margin-bottom: auto;
 }
+.Active {
+	background-color: #7cd992;
+}
+.Inactive {
+	background-color: #f7e463;
+}
+.Dead {
+	background-color: #eb6060;
+}
+.Unknown {
+	background-color: #a8a8a8;
+}
+/* END ACTIVITY BANNER */
 
 /* LINK COLORS */
 .Instagram {
@@ -109,3 +133,4 @@ a:link,visited,hover,active {
 	background-color: #4292FF;
 	border-color: #18191A;
 }
+/* END LINK COLORS */
