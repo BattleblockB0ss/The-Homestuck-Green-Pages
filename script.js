@@ -55,20 +55,18 @@ function appendData(data, a) {
 	appendDiv("groupsDiv", mainContainer.lastChild);
 	for (var i = 0; i < regionValues.length; i++) {
 		appendDiv("group", mainContainer.lastChild.lastChild);
-		groupDiv = mainContainer.lastChild.lastChild.lastChild
+		groupDiv = mainContainer.lastChild.lastChild.lastChild;
 		appendImg(groupDiv);
-		appendText(regionValues[i].groupName, groupDiv, "h2");
-		appendText(regionValues[i].location, groupDiv, "p");
-		appendText(`<b>Member Count: </b>${regionValues[i].size}`, groupDiv, "p");
-		appendText(`<i>Period Active: ${regionValues[i].period}</i>`, groupDiv, "p");
-		appendText(regionValues[i].desc, groupDiv, "p");
+		appendText(regionValues[i].groupName, groupDiv, "h2", "textCenter");
+		appendText(`<i>${regionValues[i].period}</i>`, groupDiv, "p", "textCenter lessHeight");
+		appendText(`<b><i>${regionValues[i].location}</i></b><br><br><b>Member Count: </b>${regionValues[i].size}<br>${regionValues[i].desc}`, groupDiv, "p");
 		let linksLoc = regionValues[i].links;
 		appendDiv("links", groupDiv, "links");
 		for (var e = 0; e < linksLoc.length/2; e++) {
 			appendText(`<a href=${linksLoc[2*e+1]}>${linksLoc[e*2]}</a> `, groupDiv.lastChild, "span", linksLoc[e*2]);
 		}
 		appendDiv(`${regionValues[i].status} activityDiv`, groupDiv)
-		appendText(regionValues[i].status.toUpperCase(), groupDiv.lastChild, "p");
+		appendText(`<b>${regionValues[i].status.toUpperCase()}</b>`, groupDiv.lastChild, "p");
 	}
 	//END THE GOOD SHIT
 }

@@ -12,8 +12,11 @@ body {
 h1 {
 	font-family: Noto Sans Zanabazar Square;
 }
-h2 {
+.textCenter {
 	text-align: center;
+}
+.lessHeight {
+	line-height: 50%;
 }
 img {
 	width: 95%;
@@ -25,8 +28,8 @@ img {
 span {
 	border: 2px solid white;
 	border-radius: 25px;
-	padding: 0.4em;
-	padding-left: 0.6em;
+	padding: 3px;
+	padding-left: 6px;
 	margin: 3px;
 	line-height: 35px;
 }
@@ -37,7 +40,7 @@ a:link,visited,hover,active {
   text-decoration: none;
 }
 .links {
-	margin-bottom:0.5em;
+	margin-bottom: 10px;
 }
 .region {
 	border-radius: 10px;
@@ -64,25 +67,26 @@ a:link,visited,hover,active {
 .group {
 	border: 2px solid black;
 	border-radius: 25px;
-	padding: 0.5em;
+	padding: 10px;
 	background-color: #50577A;
+	
 	
 	/* COLUMNS */
 	break-inside: avoid-column;
 	-webkit-column-break-inside: avoid;
 	page-break-inside: avoid;
-	width:100%;
+	width: 100%;
 	box-sizing:border-box;
 }
 .group:not(:first-of-type) {
   margin: 20px 0;
-}30
+}
 
 /* ACTIVITY BANNER */
 .activityDiv {
 	font-size: 30px;
-	padding: 0px 15px;
-	margin: 0px -8px -8px -8px;
+	padding: 10px 5px;
+	margin: 10px -10px -10px -10px;
 	border-radius: 0% 0% 23px 23px;
 	text-align: center;
 }
