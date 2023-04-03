@@ -1,114 +1,274 @@
 {
-	"Template": [
-		{
-			"img": "",
-			"groupName": "",
-			"location": "",
-			"size": "",
-			"desc": "",
-			"period": "",
-			"links": [],
-			"status": ""
+  "Alabama": [
+    {
+      "groupName": "Alabamastuck",
+      "location": "Alabama",
+      "size": "304",
+      "period": "2011-2018",
+      "links": [
+        "https://alabamastuck.tumblr.com/",
+        "https://www.facebook.com/groups/alabamastuck/",
+        "https://twitter.com/Alabamastuck"
+      ],
+      "status": "Dead",
+      "desc": "A Homestuck group for for Homestucks in Alabama and the sourrounding areas. Gained a significant following in the earlier days of the fandom, and stayed active until 2018. Unlike most Homestuck groups at the time, included a Twitter along with Tumblr and Facebook page.",
+      "img": "Alabamastuck.jpg"
     }
-	],
-	"California": [ 
-		{
-			"img": "CaliborniaHomestucks.jpg",
-			"groupName": "Calibornia Homestucks",
-			"location": "California",
-			"size": "215",
-			"desc": "Calibornia Homestucks is a California-wide Homestuck group founded at FanimeCon 2022. They are very active in online spaces, particularly their Discord, and host gatherings and/or panels at most major California conventions. They have a 15+ age limit.",
-			"period": "2022-present",
-			"links": ["Discord", "https://discord.gg/calibornia", "Instagram", "https://instagram.com/caliborniahomestucks", "Tumblr", "https://tumblr.com/caliborniastuck", "TikTok", "https://tiktok.com/@calibornia.stuck", "YouTube", "https://youtube.com/channel/UC77y1UjGT_TKFNG6XkMAfcQ", "Linktree", "https://linktr.ee/calibornia"],
-			"status": "Active"
+  ],
+  "California": [
+    {
+      "groupName": "Calibornia Homestucks",
+      "location": "California",
+      "size": "215",
+      "period": "2022-Present",
+      "links": [
+        "https://www.instagram.com/caliborniahomestucks",
+        "https://www.discord.gg/calibornia",
+        "https://wwwtumblr.com/caliborniastuck",
+        "https://www.tiktok.com/@calibornia.stuck",
+        "https://youtube.com/channel/UC77y1UjGT_TKFNG6XkMAfcQ"
+      ],
+      "status": "Active",
+      "desc": "Calibornia Homestucks is a California-wide Homestuck group founded at FanimeCon 2022. They are very active in online spaces, particularly their Discord, and host gatherings and/or panels at most major California conventions. They have a 15+ age limit.",
+      "img": "CaliborniaHomestucks.jpg"
     },
-		{
-			"groupName": "SoCal Homestuck 18 and Over Group",
-			"location": "Southern California",
-			"size": "32",
-			"desc": "A Facebook group for adult Homestuck cosplayers located in Southern California. Had a very short and inactive lifespan.",
-			"period": "2014-2017",
-			"links": ["Facebook", "https://www.facebook.com/groups/666498250112498/"],
-			"status": "Dead"
+    {
+      "groupName": "SoCal Homestuck 18 and Over Group",
+      "location": "Southern California",
+      "size": "32",
+      "period": "2014-2017",
+      "links": [
+        "https://www.facebook.com/groups/666498250112498/"
+      ],
+      "status": "Dead",
+      "desc": "A Facebook group for adult Homestuck cosplayers located in Southern California. Had a very short and inactive lifespan."
     },
-		{
-			"img": "SoCalStuck.jpg",
-			"groupName": "SoCalStuck",
-			"location": "Southern California",
-			"size": "Unknown",
-			"desc": "A Tumblr page dedicated to tracking Homestuck meetups and groups in Southern California. While mostly dedicated to reporting on the activity of other, seperate SoCal groups, it did host multiple meetups of its own.",
-			"period": "2012-2013",
-			"links": ["Tumblr", "https://socalstuck.tumblr.com/"],
-			"status": "Dead"
+    {
+      "groupName": "SoCalStuck",
+      "location": "Southern California",
+      "size": "Unknown",
+      "period": "2012-2013",
+      "links": [
+        "https://socalstuck.tumblr.com/"
+      ],
+      "status": "Dead",
+      "desc": "A Tumblr page dedicated to tracking Homestuck meetups and groups in Southern California. While mostly dedicated to reporting on the activity of other, seperate SoCal groups, it did host multiple meetups of its own.",
+      "img": "SoCalStuck.jpg"
     },
-		{
-			"img": "SanDiegoStuck.jpg",
-			"groupName": "SanDiegoStuck",
-			"location": "San Diego",
-			"size": "81",
-			"desc": "A San Diego Homestuck group that at one point hosted bi-monthly meetups. The group seems to have amassed a pretty significant following at one point and had initially formed from a meetup at a local convention. It seems as though the group eventually morphed into a general San Diego cosplay group judging by the Facebook page.",
-			"period": "2012-2018",
-			"links": ["Tumblr", "https://sandiegostuck.tumblr.com/", "Facebook", "https://www.facebook.com/groups/282144831811932/"],
-			"status": "Dead"
+    {
+      "groupName": "SanDiegoStuck",
+      "location": "San Diego",
+      "size": "81",
+      "period": "2012-2018",
+      "links": [
+        "https://sandiegostuck.tumblr.com/",
+        "https://www.facebook.com/groups/282144831811932/"
+      ],
+      "status": "Dead",
+      "desc": "A San Diego Homestuck group that at one point hosted bi-monthly meetups. The group seems to have amassed a pretty significant following at one point and had initially formed from a meetup at a local convention. It seems as though the group eventually morphed into a general San Diego cosplay group judging by the Facebook page.",
+      "img": "SanDiegoStuck.jpg"
     },
-		{
-			"groupName": "Orange County Homestuck Team",
-			"location": "Orange County",
-			"size": "170",
-			"desc": "All information on the page is wiped with only the note \"This group is now inactive. Sorry about that!\". No more information can be found.",
-			"period": "2011-Unknown",
-			"links": ["Facebook", "https://www.facebook.com/groups/208196309218508/"],
-			"status": "Dead"
+    {
+      "groupName": "Orange County Homestuck Team",
+      "location": "Orange County",
+      "size": "170",
+      "period": "2011-Unknown",
+      "links": [
+        "https://www.facebook.com/groups/208196309218508/"
+      ],
+      "status": "Dead",
+      "desc": "All information on the page is wiped with only the note \"This group is now inactive. Sorry about that!\". No more information can be found."
     },
-		{
-			"groupName": "SoCal Homestuck Cosplay Group",
-			"location": "Southern California",
-			"size": "236",
-			"desc": "The Facebook page is locked to members only. Judging by the member count, they amassed a significant following in their peak. The group is most likely dead.",
-			"period": "2012-Unknown",
-			"links": ["Facebook", "https://www.facebook.com/groups/243886025731762/"],
-			"status": "Unknown"
+    {
+      "groupName": "SoCal Homestuck Cosplay Group",
+      "location": "Southern California",
+      "size": "236",
+      "period": "2012-Unknown",
+      "links": [
+        "https://www.facebook.com/groups/243886025731762/"
+      ],
+      "status": "Unknown",
+      "desc": "The Facebook page is locked to members only. Judging by the member count, they amassed a significant following in their peak. The group is most likely dead."
     },
-		{
-			"groupName": "Southern? California Homestuck Meetup",
-			"location": "California",
-			"size": "134",
-			"desc": "The Facebook page is locked to members only. It can be inferred from the title and member count that this was once a thriving Homestuck group spanning Southern California and at least part of Northern California. Latest activity is unknown, but can be safely assumed to be dead.",
-			"period": "2012-Unknown",
-			"links": ["Facebook", "https://www.facebook.com/groups/383399895048609/"],
-			"status": "Unknown"
+    {
+      "groupName": "Southern? California Homestuck Meetup",
+      "location": "California",
+      "size": "134",
+      "period": "2012-Unknown",
+      "links": [
+        "https://www.facebook.com/groups/383399895048609/"
+      ],
+      "status": "Unknown",
+      "desc": "The Facebook page is locked to members only. It can be inferred from the title and member count that this was once a thriving Homestuck group spanning Southern California and at least part of Northern California. Latest activity is unknown, but can be safely assumed to be dead."
     },
-		{
-			"img": "SouthernCaliforniaHomestucks.jpg",
-			"groupName": "Southern California Homestucks",
-			"location": "Southern California",
-			"size": "165",
-			"desc": "A Homestuck group based in Southern California that seems to have been active for a longer period of time than most. Some members do appear to be active on Facebook still, although there hasn't been any significant activity in the group since 2018.",
-			"period": "2013-2018",
-			"links": ["Facebook", "https://www.facebook.com/groups/515355595200162/"],
-			"status": "Dead"
+    {
+      "groupName": "Southern California Homestucks",
+      "location": "Southern California",
+      "size": "165",
+      "period": "2013-2018",
+      "links": [
+        "https://www.facebook.com/groups/515355595200162/"
+      ],
+      "status": "Dead",
+      "desc": "A Homestuck group based in Southern California that seems to have been active for a longer period of time than most. Some members do appear to be active on Facebook still, although there hasn't been any significant activity in the group since 2018.",
+      "img": "SouthernCaliforniaHomestucks.jpg"
+    },
+    {
+      "groupName": "South Bay Area Homestuck",
+      "location": "South Bay Area",
+      "size": "31",
+      "period": "2012-2013",
+      "links": [
+        "https://southbaystuck.tumblr.com/"
+      ],
+      "status": "Dead",
+      "desc": "A blog for San Fransisco Bay Area Homestuck fans, specifically the South Bay. An offshoot of Bayareastuck",
+      "img": "SouthBayAreaHomestuck.jpg"
+    },
+    {
+      "groupName": "Bayareastuck",
+      "location": "Bay Area",
+      "size": "Unknown",
+      "period": "2012-2014",
+      "links": [
+        "https://bayareastucks-blog.tumblr.com/"
+      ],
+      "status": "Dead",
+      "desc": "A general Tumblr page that spread information on San Fransisco Bay Area Homestuck meetups."
+    },
+    {
+      "groupName": "Calistuck",
+      "location": "California",
+      "size": "106",
+      "period": "2011-2013",
+      "links": [
+        "https://calistuck-blog.tumblr.com/",
+        "https://www.facebook.com/people/Castuck-California-Homestuck/100068200025919/",
+        "https://www.facebook.com/groups/271624109539975/"
+      ],
+      "status": "Dead",
+      "desc": "A Homestuck group for California in general. Spread information about the more specifc group events.",
+      "img": "Calistuck.jpg"
+    },
+    {
+      "groupName": "Fresnostuck",
+      "location": "Fresno",
+      "size": "93",
+      "period": "2011-Unknown",
+      "links": [
+        "https://www.facebook.com/groups/199977513430646"
+      ],
+      "status": "Unknown",
+      "desc": "A group for the Fresno Area in California. The Facebook page is locked to members only and includes \"Inactive?\" at the top of the description, so the group can safely be assumed to have died off a while ago."
     }
-	],
-	"Oregon": [
-		{
-			"img": "MSPA_Logo.gif",
-			"groupName": "Targetstuck",
-			"location": "San Jose",
-			"size": "100",
-			"desc": "Lots of cool cats and hip chicks",
-			"period": "2010-2011",
-			"links": ["Instagram", "https://instagram.com/battleblockb0ss", "Google", "https://google.com", "test", "test"],
-			"status": "Active"
-		},
-		{
-			"img": "Homestuck.jpg",
-			"groupName": "the Simpsons",
-			"location": "San Jose",
-			"size": "100",
-			"desc": "Lots of cool cats and hip chicks",
-			"period": "2010-2011",
-			"links": ["Instagram", "https://instagram.com/battleblockb0ss", "Google", "https://google.com", "test", "test"],
-			"status": "Active"
-		}
-	]
+  ],
+  "Florida": [
+    {
+      "groupName": "Fort Meyers Homestuck Group",
+      "location": "Fort Myers, FL",
+      "size": "11",
+      "period": "2013",
+      "links": [
+        "https://fortmyerstuck-blog.tumblr.com/"
+      ],
+      "status": "Dead",
+      "desc": "A Tumblr page for a cosplay group centered in Fort Meyers, FL: South-West Florida, Lee County. Appears to have only been active during 2013, but could have possibly been active elsewhere on the internet."
+    }
+  ],
+  "Idaho": [
+    {
+      "groupName": "Idahostuck",
+      "location": "Idaho",
+      "size": "168",
+      "period": "2011-Present",
+      "links": [
+        "https://idahostuck.tumblr.com/",
+        "https://www.facebook.com/groups/160547577372707/",
+        "https://www.deviantart.com/idahostuck"
+      ],
+      "status": "Inactive",
+      "desc": "A group dedicated to Homestucks in Idaho. Not much activity nowadays, but infrequent spurts of posting occur around conventions."
+    }
+  ],
+  "Ireland": [
+    {
+      "groupName": "Homestuck Ireland",
+      "location": "Ireland",
+      "size": "214",
+      "period": "2012-2014",
+      "links": [
+        "https://homestuckireland.tumblr.com/",
+        "https://www.facebook.com/HomestuckIreland/photos",
+        "https://www.flickr.com/photos/moysphotos/"
+      ],
+      "status": "Dead",
+      "desc": "A Homestuck group for fans meet up in cosplay and discuss all things Homestuck in Ireland."
+    }
+  ],
+  "Missouri": [
+    {
+      "groupName": "Can Town St. Louis",
+      "location": "St. Louis",
+      "size": "307",
+      "period": "2012-2022",
+      "links": [
+        "https://cantownstlouis.tumblr.com/",
+        "https://www.facebook.com/CanTownStLouis",
+        "http://www.cantownstlouis.com/"
+      ],
+      "status": "Inactive",
+      "desc": "Can Town Project for the Greater St. Louis area. The group hosted several meetups centered around the Can Town Project and collecting canned food for charity. Collected some really astounding numbers for a great cause."
+    }
+  ],
+  "Pennsylvania": [
+    {
+      "groupName": "PhillyStuck!",
+      "location": "Philadelphia",
+      "size": "452",
+      "period": "2011-2020",
+      "links": [
+        "https://www.facebook.com/groups/157087351043845"
+      ],
+      "status": "Dead",
+      "desc": "A Facebook and meetup group for Homestucks in and around Philadelphia. One of the largest Homestuck groups that still seems to have active members on Facebook."
+    }
+  ],
+  "Texas": [
+    {
+      "groupName": "DFWstuck",
+      "location": "Dallas-Fort Worth Area",
+      "size": "Unknown",
+      "period": "2014-2015",
+      "links": [
+        "https://dfwstuck.tumblr.com",
+        "https://dfwpromstuck.tumblr.com"
+      ],
+      "status": "Dead",
+      "desc": "Group that briefly operated (mainly in conventions) in the year 2014. Hosted event \"Promstuck\". Most recent post has no notes."
+    },
+    {
+      "groupName": "Texasstuck",
+      "location": "Texas",
+      "size": "Unknown",
+      "period": "2012-2019",
+      "links": [
+        "https://texasstuck.tumblr.com/"
+      ],
+      "status": "Dead",
+      "desc": "For Homestucks in the state of Texas. Tumblr includes masterpost of all subgroups at the time that they were active."
+    },
+    {
+      "groupName": "AustinStuck",
+      "location": "Austin",
+      "size": "284",
+      "period": "2012-2014",
+      "links": [
+        "https://austinstuck.tumblr.com/",
+        "https://www.facebook.com/groups/172388956196812/"
+      ],
+      "status": "Dead",
+      "desc": "Central texas Homestucks"
+    }
+  ],
+  "Misc.": []
 }

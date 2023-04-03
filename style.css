@@ -16,14 +16,17 @@ h1 {
 	text-align: center;
 }
 .lessHeight {
-	line-height: 50%;
+	margin-top: -20px;
 }
 img {
-	width: 95%;
-	margin-top: 15px;
 	display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.groupImg {
+	width: 95%;
+	margin-top: 15px;
+	margin-bottom: -10px;
 }
 span {
 	border: 2px solid white;
@@ -32,6 +35,7 @@ span {
 	padding-left: 6px;
 	margin: 3px;
 	line-height: 35px;
+	background: black;
 }
 a {
 	color: white;
@@ -64,7 +68,7 @@ a:link,visited,hover,active {
 	column-count: 5;
 	padding-bottom: 15px;
 }
-.group {
+.groupCard {
 	border: 2px solid black;
 	border-radius: 25px;
 	padding: 10px;
@@ -78,7 +82,7 @@ a:link,visited,hover,active {
 	width: 100%;
 	box-sizing:border-box;
 }
-.group:not(:first-of-type) {
+.groupCard:not(:first-of-type) {
   margin: 20px 0;
 }
 
@@ -110,11 +114,11 @@ a:link,visited,hover,active {
 
 /* LINK COLORS */
 .Instagram {
-	background-image: linear-gradient(to bottom right, #d62976, 	#962fbf);
+	background-image: linear-gradient(to bottom right, 	#feda75, 	#fa7e1e, #d62976, #962fbf, 	#4f5bd5);
 	border-color: #000000;
 }
 .Discord {
-	background-color:	#7289da;
+	background-color:	#5662F6;
 	border-color: #23272a;
 }
 .Tumblr {
@@ -136,5 +140,12 @@ a:link,visited,hover,active {
 .Facebook {
 	background-color: #4292FF;
 	border-color: #18191A;
+}
+.Twitter {
+	background-color: #1D9BF0;
+}
+.DeviantArt {
+	background-color: #00E59B;
+	border-color: #06070D;
 }
 /* END LINK COLORS */
