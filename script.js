@@ -32,7 +32,7 @@ function createRegionSection(regionName, regionData) {
 
 	//create Title
 	const headerDiv = appendDiv("headerDiv", section);
-	const regionHeader = appendText(regionName, headerDiv, "h1", "header");
+	const regionHeader = appendText(regionName, headerDiv, "h2", "header");
 
 	//create Cards
 	const groupsDiv = appendDiv("groupsDiv", section);
@@ -50,9 +50,9 @@ function createGroupCard(group){
 	groupCard.setAttribute('class', 'groupCard');
 
 	appendImg(groupCard, img);
-	appendText(groupName, groupCard, "h2", "textCenter");
+	appendText(groupName, groupCard, "h3", "textCenter");
 	appendText(`<i>${period}</i>`, groupCard, "p", "textCenter lessHeight");
-	appendText(`${location}<br><b>Member Count: </b>${size}<br>${desc}`, groupCard, "p");
+	appendText(`<b>Region: </b>${location}<br><b>Member Count: </b>${size}<br><br>${desc}`, groupCard, "p");
 	let linksLoc = links;
 	appendDiv("links", groupCard, "links");
 	for (var e = 0; e < linksLoc.length; e++) {

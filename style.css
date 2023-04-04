@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Zanabazar+Square&display=swap');
+@font-face {
+  font-family: typoStuck;
+  src: url(fonts/TYPOSTUCK.ttf);
+}
 
 html {
   height: 100%;
@@ -10,23 +14,23 @@ body {
 	font-family: Open Sans, Helvetica, sans-serif;
 }
 h1 {
+	font-size: 10vw;
+	text-align: center; 
+}
+h2 {
 	font-family: Noto Sans Zanabazar Square;
+	font-size: 200%;
 }
-.textCenter {
-	text-align: center;
+h3 {
+	font-size: 200%;
 }
-.lessHeight {
-	margin-top: -20px;
+h4 {
+	font-size: 150%;
 }
 img {
 	display: block;
   margin-left: auto;
   margin-right: auto;
-}
-.groupImg {
-	width: 95%;
-	margin-top: 15px;
-	margin-bottom: -10px;
 }
 span {
 	border: 2px solid white;
@@ -42,6 +46,45 @@ a {
 }
 a:link,visited,hover,active {
   text-decoration: none;
+}
+
+.textCenter {
+	text-align: center;
+}
+.lessHeight {
+	margin-top: -20px;
+}
+.typoStuckFont {
+	font-family: typoStuck;
+  text-shadow: 0.5vw 0.5vw 0px black
+}
+
+/* NOTICEs */
+.wipNotice {
+	border: solid 3px black;
+	border-radius: 5px;
+	background-color: #f7e463;
+	margin: 30px;
+	padding: 0px 15px;
+	color: black;
+}
+.wipNotice * {
+	line-height: 100%;
+}
+.warning {
+	border: solid 3px darkred;
+	border-radius: 5px;
+	background-color: #eb6060;
+	margin: 30px;
+	padding: 0px 15px;
+}
+/* END NOTICES */
+
+/* GROUPS */
+.groupImg {
+	width: 95%;
+	margin-top: 15px;
+	margin-bottom: -10px;
 }
 .links {
 	margin-bottom: 10px;
@@ -85,6 +128,38 @@ a:link,visited,hover,active {
 .groupCard:not(:first-of-type) {
   margin: 20px 0;
 }
+/* END GROUPS */
+
+/* FAQ */
+.faq {
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #50577A;
+}
+.faq h2 {
+	font-size: 500%;
+	margin: 20px;
+}
+.faqCard {
+	background-color: #474E68;
+	border-radius: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+div.faqCard p {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+div.faqCard h4 {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: -10px;
+}
+/* END FAQ */
 
 /* ACTIVITY BANNER */
 .activityDiv {
@@ -111,6 +186,46 @@ a:link,visited,hover,active {
 	background-color: #a8a8a8;
 }
 /* END ACTIVITY BANNER */
+
+/* CONTACT */
+
+.contact h2 {
+	font-size: 500%;
+	margin: 20px;
+}
+
+/* EMAIL FORM */
+.emailForm {
+	border-radius: 5px;
+  background-color: #50577A;
+  padding: 20px;
+	margin: 20px 10%;
+}
+input[type=text], [type=email], textarea, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #7cd992;
+}
+/* END EMAIL FORM */
+
+/* END CONTACT */
 
 /* LINK COLORS */
 .Instagram {
